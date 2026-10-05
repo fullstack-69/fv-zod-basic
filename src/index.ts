@@ -48,7 +48,7 @@ const s4 = z
   .string()
   .regex(
     /^\d{4}\-(0[1-9]|1[012])\-(0[1-9]|[12][0-9]|3[01])$/,
-    "User format YYYY-MM-DD"
+    "Use format YYYY-MM-DD",
   );
 // log(JSON.stringify(s4.safeParse("2021-01-4401"), null, 2));
 
